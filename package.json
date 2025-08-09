@@ -1,0 +1,42 @@
+{
+  "name": "ai-learning-platform",
+  "version": "1.0.0",
+  "description": "AI Learning Platform with tools, courses, and authentication",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "dev": "npx live-server --port=3000 --open=index.html",
+    "build": "echo 'No build process needed for static files'",
+    "test": "echo 'No tests specified'",
+    "serve": "python -m http.server 3000",
+    "lint": "npx eslint js/**/*.js",
+    "format": "npx prettier --write **/*.{html,css,js}"
+  },
+  "keywords": [
+    "ai",
+    "learning",
+    "platform",
+    "education",
+    "tools",
+    "courses"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "firebase": "^10.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "your-repository-url"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
